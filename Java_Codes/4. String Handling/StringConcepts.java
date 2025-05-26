@@ -1,6 +1,6 @@
 import java.util.StringTokenizer;
 
-public class StringConceptsDemo {
+public class StringConcepts {
     public static void main(String[] args) {
         // ********** 1. String & Common Methods (Immutable) **********
         System.out.println("\n----- String & Common Methods -----");
