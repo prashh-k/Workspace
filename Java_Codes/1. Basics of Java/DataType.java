@@ -17,5 +17,7 @@ public class DataType {
         System.out.println("Double Value: " + f);
         System.out.println("Char Value: " + g);
         System.out.println("Boolean Value: " + h);
+
+        
     }
 }
