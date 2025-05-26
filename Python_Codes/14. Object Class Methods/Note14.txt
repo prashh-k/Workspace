@@ -1,0 +1,65 @@
+Ah, I understand the question better now! You’re asking why the two objects (person1 and person2) have the same custom hash code (from your overridden hashCode() method) but still show the same @218b3819 in the toString() output when the toString() method is not overridden. Let me break it down:
+
+Key Concepts
+
+🔹 1. Custom __hash__() in Python
+In Python, just like Java’s hashCode(), you can override the __hash__() method to define how an object should be hashed—especially useful when using objects in sets or as dictionary keys.
+
+def __hash__(self):
+    return hash((self.name, self.age))
+
+This ensures that two Person objects with the same name and age will have the same hash value.
+
+
+🔹 2. Default __str__() Behavior in Python
+If you don’t override __str__() or __repr__(), printing an object will show something like:
+
+<Person object at 0x7f8b2c3d1d30>
+
+
+This is similar to Java’s default toString() output:
+ClassName@MemoryAddressHashCode
+
+It’s not based on your custom __hash__()—it’s just the memory address of the object.
+
+
+
+🔹 3. Why Two Objects Can Have the Same Hash but Different Memory Addresses
+In Python:
+
+---person1 = Person("John Doe", 30)
+person2 = Person("John Doe", 30)
+
+print(hash(person1))  # Same hash
+print(hash(person2))  # Same hash
+print(person1 is person2)  # False (different memory locations)
+
+Even though the hash values are the same (because of __hash__()), the objects are still different in memory. That’s why their default printed representations (if __str__() is not overridden) will show different memory addresses.
+
+
+✅ Solution: Override __str__() for Readable Output
+To avoid confusion and make your object printouts meaningful:
+
+def __str__(self):
+    return f"Person(name='{self.name}', age={self.age})"
+print(person1)
+print(person2)
+
+Will output:
+
+Person(name='John Doe', age=30)
+Person(name='John Doe', age=30)
+
+
+
+✅ Summary Table
+
+Concept		                Python
+Hashing		                __hash__()
+Equality	                __eq__()
+String Representation		__str__() or __repr__()
+Default Output		        <Class object at memory>
+Fix for Readability 		Override __str__()
+
+
+
