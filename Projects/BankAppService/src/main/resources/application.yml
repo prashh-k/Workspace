@@ -1,0 +1,43 @@
+spring:
+  application:
+    name: bankappservice
+  datasource:
+    url: jdbc:postgresql://localhost:5432/spring_boot_db_employeeapp
+    username: postgres
+    password: postgres
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+    show-sql: true
+    hibernate:
+      ddl-auto: create
+  boot:
+    admin:
+      client:
+        url: http://localhost:8080
+  activemq:
+    broker-url: tcp://localhost:61616
+    user: admin
+    password: admin
+  jms:
+    observation:
+      enabled: false
+
+server:
+  port: 8081
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+  endpoint:
+    health:
+      show-details: always
+
+logging:
+  level:
+    root: INFO
+    com.bankappservice: DEBUG
+  file:
+    name: C:/Workspace/logs/bankappservice.log

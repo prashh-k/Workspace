@@ -1,0 +1,57 @@
+[29-05-2025 14:57:23:36] Running: C:\Workspace\ShellScriptProject\Basics_of_Shell_Script\DataType.sh 
+[29-05-2025 14:57:23] Int Value (a): 127
+[29-05-2025 14:57:24] Int Value (b): 32000
+[29-05-2025 14:57:24] Int Value (c): 100000
+[29-05-2025 14:57:24] Long-like Int (d): 123456789
+[29-05-2025 14:57:24] Float Value (e): 3.14
+[29-05-2025 14:57:25] Double-like Float (f): 3.14159
+[29-05-2025 14:57:25] Char-like String (g): A
+[29-05-2025 14:57:25] Boolean Value (h): true
+[29-05-2025 14:57:25] List (i): 1 2 3
+[29-05-2025 14:57:26] Tuple (j): (4 5 6)
+[29-05-2025 14:57:26] Range (k): 0 1 2
+[29-05-2025 14:57:26] Set (l): 1 2 3
+[29-05-2025 14:57:26] Dictionary (m): name=Alice, age=25
+[29-05-2025 14:57:28:18] Running: C:\Workspace\ShellScriptProject\Basics_of_Shell_Script\TypeCasting.sh 
+[29-05-2025 14:57:28] === Implicit Type Casting (Widening) ===
+[29-05-2025 14:57:29] Integer: 10
+[29-05-2025 14:57:29] Converted to Float (Double-like): 10.00
+[29-05-2025 14:57:29] 
+[29-05-2025 14:57:30] === Explicit Type Casting (Narrowing) ===
+[29-05-2025 14:57:30] Float (Double-like): 10.75
+[29-05-2025 14:57:30] Converted to Integer: 10
+[29-05-2025 14:57:30] 
+[29-05-2025 14:57:31] === String to Integer Conversion ===
+[29-05-2025 14:57:31] Converted integer (s1): 123
+[29-05-2025 14:57:31] s2 is not a valid integer.
+[29-05-2025 14:57:32] Converted from decimal string (s3): 12
+[29-05-2025 14:57:32] Converted from currency string (s4): 100
+[29-05-2025 14:57:33:92] Running: C:\Workspace\ShellScriptProject\Basics_of_Shell_Script\Variable.sh 
+[29-05-2025 14:57:34] === Global Variable ===
+[29-05-2025 14:57:34] I am a global variable
+[29-05-2025 14:57:34] 
+[29-05-2025 14:57:35] === Environment Variable ===
+[29-05-2025 14:57:35] I am an environment variable
+[29-05-2025 14:57:35] 
+[29-05-2025 14:57:35] === Local Variable ===
+[29-05-2025 14:57:36] Local Variable: I am a local variable
+[29-05-2025 14:57:36] 
+[29-05-2025 14:57:36] === Positional Parameters ===
+[29-05-2025 14:57:36] Script Name ($0): C:WorkspaceShellScriptProjectBasics_of_Shell_ScriptVariable.sh
+[29-05-2025 14:57:37] First Argument ($1):
+[29-05-2025 14:57:37] Second Argument ($2):
+[29-05-2025 14:57:37] All Arguments ($@):
+[29-05-2025 14:57:37] Number of Arguments ($#): 0
+[29-05-2025 14:57:37] 
+[29-05-2025 14:57:38] === Special Variables ===
+[29-05-2025 14:57:38] Process ID ($$): 1010
+[29-05-2025 14:57:38] Last Command Exit Status ($?): 0
+[29-05-2025 14:57:38] 
+[29-05-2025 14:57:39] === Array Variable ===
+[29-05-2025 14:57:39] Array Element [0]: apple
+[29-05-2025 14:57:39] Array Element [1]: banana
+[29-05-2025 14:57:39] All Array Elements: apple banana cherry
+[29-05-2025 14:57:39] 
+[29-05-2025 14:57:40] === Associative Array Variable ===
+[29-05-2025 14:57:40] Associative Array - Name: Alice
+[29-05-2025 14:57:40] Associative Array - Age: 25

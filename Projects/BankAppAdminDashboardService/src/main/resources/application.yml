@@ -1,0 +1,19 @@
+spring:
+  application:
+    name: BankAppAdminDashboardService
+  security:
+    user:
+      name: admin
+      password: admin123
+
+server:
+  port: 8080
+
+
+logging:
+  level:
+    root: INFO
+    com.bankappservice: DEBUG
+  file:
+    name: C:/Workspace/logs/bankappadmindashboardservice.log
+

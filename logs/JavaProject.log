@@ -1,0 +1,90 @@
+[29-05-2025 14:10:01:19] Compiling 
+[29-05-2025 14:10:06:28] Running: 
+[29-05-2025 14:10:06:61] Byte Value: 127 
+[29-05-2025 14:10:06:63] Short Value: 32000 
+[29-05-2025 14:10:06:67] Int Value: 100000 
+[29-05-2025 14:10:06:68] Long Value: 123456789 
+[29-05-2025 14:10:06:72] Float Value: 3.14 
+[29-05-2025 14:10:06:75] Double Value: 3.14159 
+[29-05-2025 14:10:06:78] Char Value: A 
+[29-05-2025 14:10:06:81] Boolean Value: true 
+[29-05-2025 14:10:06:84] Running: 
+[29-05-2025 14:10:07:08] Error: Main method not found in class com.Basics_of_Java.Example, please define the main method as: 
+[29-05-2025 14:10:07:10]    public static void main(String[] args) 
+[29-05-2025 14:10:07:12] or a JavaFX application class must extend javafx.application.Application 
+[29-05-2025 14:10:07:14] Running: 
+[29-05-2025 14:10:07:44] Integer: 10 
+[29-05-2025 14:10:07:46] Converted to Double: 10.0 
+[29-05-2025 14:10:07:49] Double: 10.75 
+[29-05-2025 14:10:07:52] Converted to Integer: 10 
+[29-05-2025 14:10:07:55] Running: 
+[29-05-2025 14:10:07:82] Local Variable: 30 
+[29-05-2025 14:10:07:84] Instance Variable: 10 
+[29-05-2025 14:10:07:86] Static Variable: 20 
+[29-05-2025 14:10:46:32] Compiling 
+[29-05-2025 14:10:49:33] Running: 
+[29-05-2025 14:10:49:54] Byte Value: 127 
+[29-05-2025 14:10:49:55] Short Value: 32000 
+[29-05-2025 14:10:49:58] Int Value: 100000 
+[29-05-2025 14:10:49:60] Long Value: 123456789 
+[29-05-2025 14:10:49:62] Float Value: 3.14 
+[29-05-2025 14:10:49:65] Double Value: 3.14159 
+[29-05-2025 14:10:49:66] Char Value: A 
+[29-05-2025 14:10:49:70] Boolean Value: true 
+[29-05-2025 14:10:49:72] Running: 
+[29-05-2025 14:10:50:00] Error: Main method not found in class com.Basics_of_Java.Example, please define the main method as: 
+[29-05-2025 14:10:50:02]    public static void main(String[] args) 
+[29-05-2025 14:10:50:04] or a JavaFX application class must extend javafx.application.Application 
+[29-05-2025 14:10:50:07] Running: 
+[29-05-2025 14:10:50:33] Integer: 10 
+[29-05-2025 14:10:50:35] Converted to Double: 10.0 
+[29-05-2025 14:10:50:37] Double: 10.75 
+[29-05-2025 14:10:50:39] Converted to Integer: 10 
+[29-05-2025 14:10:50:41] Running: 
+[29-05-2025 14:10:50:62] Local Variable: 30 
+[29-05-2025 14:10:50:65] Instance Variable: 10 
+[29-05-2025 14:10:50:67] Static Variable: 20 
+[2025-05-29 14:12:21] Compiling: /c/Workspace/JavaProject/src/com/Basics_of_Java/DataType.java
+[2025-05-29 14:12:23] Running: com.Basics_of_Java.DataType
+[2025-05-29 14:12:23] Byte Value: 127
+[2025-05-29 14:12:23] Short Value: 32000
+[2025-05-29 14:12:23] Int Value: 100000
+[2025-05-29 14:12:23] Long Value: 123456789
+[2025-05-29 14:12:24] Float Value: 3.14
+[2025-05-29 14:12:24] Double Value: 3.14159
+[2025-05-29 14:12:24] Char Value: A
+[2025-05-29 14:12:24] Boolean Value: true
+[2025-05-29 14:12:24] Compiling: /c/Workspace/JavaProject/src/com/Basics_of_Java/TypeCasting.java
+[2025-05-29 14:12:25] Running: com.Basics_of_Java.TypeCasting
+[2025-05-29 14:12:26] Integer: 10
+[2025-05-29 14:12:26] Converted to Double: 10.0
+[2025-05-29 14:12:26] Double: 10.75
+[2025-05-29 14:12:26] Converted to Integer: 10
+[2025-05-29 14:12:26] Compiling: /c/Workspace/JavaProject/src/com/Basics_of_Java/Variable.java
+[2025-05-29 14:12:28] Running: com.Basics_of_Java.Variable
+[2025-05-29 14:12:28] Local Variable: 30
+[2025-05-29 14:12:28] Instance Variable: 10
+[2025-05-29 14:12:28] Static Variable: 20
+[29-05-2025 14:15:45:64] Compiling 
+[29-05-2025 14:15:48:74] Running: 
+[29-05-2025 14:15:48:93] Byte Value: 127 
+[29-05-2025 14:15:48:95] Short Value: 32000 
+[29-05-2025 14:15:48:98] Int Value: 100000 
+[29-05-2025 14:15:49:00] Long Value: 123456789 
+[29-05-2025 14:15:49:03] Float Value: 3.14 
+[29-05-2025 14:15:49:05] Double Value: 3.14159 
+[29-05-2025 14:15:49:08] Char Value: A 
+[29-05-2025 14:15:49:11] Boolean Value: true 
+[29-05-2025 14:15:49:14] Running: 
+[29-05-2025 14:15:49:38] Error: Main method not found in class com.Basics_of_Java.Example, please define the main method as: 
+[29-05-2025 14:15:49:39]    public static void main(String[] args) 
+[29-05-2025 14:15:49:43] or a JavaFX application class must extend javafx.application.Application 
+[29-05-2025 14:15:49:45] Running: 
+[29-05-2025 14:15:49:68] Integer: 10 
+[29-05-2025 14:15:49:70] Converted to Double: 10.0 
+[29-05-2025 14:15:49:71] Double: 10.75 
+[29-05-2025 14:15:49:73] Converted to Integer: 10 
+[29-05-2025 14:15:49:76] Running: 
+[29-05-2025 14:15:49:98] Local Variable: 30 
+[29-05-2025 14:15:50:02] Instance Variable: 10 
+[29-05-2025 14:15:50:04] Static Variable: 20 

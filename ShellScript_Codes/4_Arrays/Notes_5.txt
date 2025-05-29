@@ -1,5 +1,0 @@
-1. 1D & 2D Arrays
-2. Initialization
-3. Traversal
-4. Sorting
-5. Searching

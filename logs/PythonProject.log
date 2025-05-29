@@ -1,0 +1,172 @@
+[29-05-2025 14:22:22:13] Running: 
+[29-05-2025 14:22:22:37] ------ 1D Array Searching ------ 
+[29-05-2025 14:22:22:41] Linear Search: 9 found at index 2 
+[29-05-2025 14:22:22:43] Binary Search: 9 found at index 4 (after sorting) 
+[29-05-2025 14:22:22:45] ------ 2D Array Searching ------ 
+[29-05-2025 14:22:22:48] Found 50 at position [1][1] 
+[29-05-2025 14:22:22:52] Running: 
+[29-05-2025 14:22:22:64] ------ 1D Array Sorting ------ 
+[29-05-2025 14:22:22:66] Ascending: [1, 2, 3, 5, 9] 
+[29-05-2025 14:22:22:68] Descending: [9, 5, 3, 2, 1] 
+[29-05-2025 14:22:22:70] ------ 2D Array Row-wise Sorting ------ 
+[29-05-2025 14:22:22:73] After sorting each row: 
+[29-05-2025 14:22:22:76] [1, 3, 5] 
+[29-05-2025 14:22:22:78] [2, 4, 8] 
+[29-05-2025 14:22:22:81] ------ 2D Array Full Sorting (Flattened) ------ 
+[29-05-2025 14:22:22:82] Entire matrix sorted: 
+[29-05-2025 14:22:22:86] [2, 4, 5] 
+[29-05-2025 14:22:22:89] [7, 8, 9] 
+[29-05-2025 14:22:22:92] Running: 
+[29-05-2025 14:22:23:11] Traceback (most recent call last): 
+[29-05-2025 14:22:40:84] Running: 
+[29-05-2025 14:22:40:98] ------ 1D Array Searching ------ 
+[29-05-2025 14:22:41:00] Linear Search: 9 found at index 2 
+[29-05-2025 14:22:41:03] Binary Search: 9 found at index 4 (after sorting) 
+[29-05-2025 14:22:41:05] ------ 2D Array Searching ------ 
+[29-05-2025 14:22:41:08] Found 50 at position [1][1] 
+[29-05-2025 14:22:41:13] Running: 
+[29-05-2025 14:22:41:25] ------ 1D Array Sorting ------ 
+[29-05-2025 14:22:41:26] Ascending: [1, 2, 3, 5, 9] 
+[29-05-2025 14:22:41:29] Descending: [9, 5, 3, 2, 1] 
+[29-05-2025 14:22:41:31] ------ 2D Array Row-wise Sorting ------ 
+[29-05-2025 14:22:41:34] After sorting each row: 
+[29-05-2025 14:22:41:37] [1, 3, 5] 
+[29-05-2025 14:22:41:40] [2, 4, 8] 
+[29-05-2025 14:22:41:43] ------ 2D Array Full Sorting (Flattened) ------ 
+[29-05-2025 14:22:41:46] Entire matrix sorted: 
+[29-05-2025 14:22:41:48] [2, 4, 5] 
+[29-05-2025 14:22:41:51] [7, 8, 9] 
+[29-05-2025 14:22:41:55] Running: 
+[29-05-2025 14:22:41:71] Traceback (most recent call last): 
+[29-05-2025 14:23:03:73] Running: 
+[29-05-2025 14:23:03:89] Int Value (a): 127 
+[29-05-2025 14:23:03:91] Int Value (b): 32000 
+[29-05-2025 14:23:03:93] Int Value (c): 100000 
+[29-05-2025 14:23:03:96] Long-like Int (d): 123456789 
+[29-05-2025 14:23:04:00] Float Value (e): 3.14 
+[29-05-2025 14:23:04:02] Double-like Float (f): 3.14159 
+[29-05-2025 14:23:04:07] Char-like String (g): A 
+[29-05-2025 14:23:04:09] Boolean Value (h): True 
+[29-05-2025 14:23:04:12] List (i): [1, 2, 3] 
+[29-05-2025 14:23:04:15] Tuple (j): (4, 5, 6) 
+[29-05-2025 14:23:04:16] Range (k): [0, 1, 2] 
+[29-05-2025 14:23:04:20] Set (l): {1, 2, 3} 
+[29-05-2025 14:23:04:22] Dictionary (m): {'name': 'Alice', 'age': 25} 
+[29-05-2025 14:23:04:26] Running: 
+[29-05-2025 14:23:04:41] === Implicit Type Casting (Widening) === 
+[29-05-2025 14:23:04:43] Integer: 10 
+[29-05-2025 14:23:04:45] Converted to Float (Double-like): 10.0 
+[29-05-2025 14:23:04:47] === Explicit Type Casting (Narrowing) === 
+[29-05-2025 14:23:04:50] Float (Double-like): 10.75 
+[29-05-2025 14:23:04:54] Converted to Integer: 10 
+[29-05-2025 14:23:04:57] === String to Integer Conversion === 
+[29-05-2025 14:23:04:58] Converted integer (s1): 123 
+[29-05-2025 14:23:04:62] s2 is not a valid integer. 
+[29-05-2025 14:23:04:65] Converted from decimal string (s3): 12 
+[29-05-2025 14:23:04:68] Converted from currency string (s4): 100 
+[29-05-2025 14:23:04:75] Running: 
+[29-05-2025 14:23:04:91] Local Variable: 30 
+[29-05-2025 14:23:04:94] Instance Variable: 10 
+[29-05-2025 14:23:04:97] Static Variable: 20 
+[29-05-2025 14:25:46:95] Running: 
+[29-05-2025 14:25:47:11] python: can't open file 'C:\\Workspace\\"C:\\Workspace\\PythonProject\\Arrays\\ArraySearching.py"': [Errno 22] Invalid argument 
+[29-05-2025 14:25:47:14] Running: 
+[29-05-2025 14:25:47:29] python: can't open file 'C:\\Workspace\\"C:\\Workspace\\PythonProject\\Arrays\\ArraySorting.py"': [Errno 22] Invalid argument 
+[29-05-2025 14:25:47:33] Running: 
+[29-05-2025 14:25:47:53] python: can't open file 'C:\\Workspace\\"C:\\Workspace\\PythonProject\\Arrays\\initialization.py"': [Errno 22] Invalid argument 
+[29-05-2025 14:25:47:58] Running: 
+[29-05-2025 14:25:47:78] python: can't open file 'C:\\Workspace\\"C:\\Workspace\\PythonProject\\Arrays\\traversal.py"': [Errno 22] Invalid argument 
+[29-05-2025 14:26:22:47] Running: 
+[29-05-2025 14:26:22:64] python: can't open file 'C:\\Workspace\\"C:\\Workspace\\PythonProject\\Basics_of_Python\\DataType.py"': [Errno 22] Invalid argument 
+[29-05-2025 14:26:22:67] Running: 
+[29-05-2025 14:26:22:80] python: can't open file 'C:\\Workspace\\"C:\\Workspace\\PythonProject\\Basics_of_Python\\TypeCasting.py"': [Errno 22] Invalid argument 
+[29-05-2025 14:26:22:82] Running: 
+[29-05-2025 14:26:22:96] python: can't open file 'C:\\Workspace\\"C:\\Workspace\\PythonProject\\Basics_of_Python\\Variable.py"': [Errno 22] Invalid argument 
+[29-05-2025 14:28:17:61] Running: 
+[29-05-2025 14:28:17:78] ------ 1D Array Searching ------ 
+[29-05-2025 14:28:17:82] Linear Search: 9 found at index 2 
+[29-05-2025 14:28:17:84] Binary Search: 9 found at index 4 (after sorting) 
+[29-05-2025 14:28:17:85] ------ 2D Array Searching ------ 
+[29-05-2025 14:28:17:88] Found 50 at position [1][1] 
+[29-05-2025 14:28:17:92] Running: 
+[29-05-2025 14:28:18:15] ------ 1D Array Sorting ------ 
+[29-05-2025 14:28:18:17] Ascending: [1, 2, 3, 5, 9] 
+[29-05-2025 14:28:18:20] Descending: [9, 5, 3, 2, 1] 
+[29-05-2025 14:28:18:23] ------ 2D Array Row-wise Sorting ------ 
+[29-05-2025 14:28:18:26] After sorting each row: 
+[29-05-2025 14:28:18:27] [1, 3, 5] 
+[29-05-2025 14:28:18:29] [2, 4, 8] 
+[29-05-2025 14:28:18:32] ------ 2D Array Full Sorting (Flattened) ------ 
+[29-05-2025 14:28:18:34] Entire matrix sorted: 
+[29-05-2025 14:28:18:35] [2, 4, 5] 
+[29-05-2025 14:28:18:37] [7, 8, 9] 
+[29-05-2025 14:28:18:42] Running: 
+[29-05-2025 14:28:18:71] Traceback (most recent call last): 
+[29-05-2025 14:30:35:25] Running: 
+[29-05-2025 14:30:35:47] Running: 
+[29-05-2025 14:30:35:71] Running: 
+[29-05-2025 14:30:35:99] Running: 
+[29-05-2025 14:31:58:72] Running: C:\Workspace\PythonProject\Arrays\ArraySearching.py 
+[29-05-2025 14:31:58:74] ------ 1D Array Searching ------ 
+[29-05-2025 14:31:58:74] Linear Search: 9 found at index 2 
+[29-05-2025 14:31:58:74] Binary Search: 9 found at index 4 (after sorting) 
+[29-05-2025 14:31:58:74] ------ 2D Array Searching ------ 
+[29-05-2025 14:31:58:74] Found 50 at position [1][1] 
+[29-05-2025 14:31:58:90] Running: C:\Workspace\PythonProject\Arrays\ArraySorting.py 
+[29-05-2025 14:31:58:90] ------ 1D Array Sorting ------ 
+[29-05-2025 14:31:58:90] Ascending: [1, 2, 3, 5, 9] 
+[29-05-2025 14:31:58:90] Descending: [9, 5, 3, 2, 1] 
+[29-05-2025 14:31:58:90] ------ 2D Array Row-wise Sorting ------ 
+[29-05-2025 14:31:58:90] After sorting each row: 
+[29-05-2025 14:31:58:90] [1, 3, 5] 
+[29-05-2025 14:31:58:90] [2, 4, 8] 
+[29-05-2025 14:31:58:90] ------ 2D Array Full Sorting (Flattened) ------ 
+[29-05-2025 14:31:58:90] Entire matrix sorted: 
+[29-05-2025 14:31:58:90] [2, 4, 5] 
+[29-05-2025 14:31:58:90] [7, 8, 9] 
+[29-05-2025 14:31:59:09] Running: C:\Workspace\PythonProject\Arrays\initialization.py 
+[29-05-2025 14:31:59:09] Traceback (most recent call last): 
+[29-05-2025 14:31:59:09]   File "C:\Workspace\PythonProject\Arrays\initialization.py", line 1, in <module> 
+[29-05-2025 14:31:59:09]     import numpy as np 
+[29-05-2025 14:31:59:09] ModuleNotFoundError: No module named 'numpy' 
+[29-05-2025 14:31:59:31] Running: C:\Workspace\PythonProject\Arrays\traversal.py 
+[29-05-2025 14:31:59:33] ------ Traversing 1D Array ------ 
+[29-05-2025 14:31:59:33] Using for loop: 10 20 30 40 50  
+[29-05-2025 14:31:59:33] Using for-each: 10 20 30 40 50  
+[29-05-2025 14:31:59:33] ------ Traversing 2D Array ------ 
+[29-05-2025 14:31:59:33] Using nested for loop: 
+[29-05-2025 14:31:59:33] 1 2 3  
+[29-05-2025 14:31:59:33] 4 5 6  
+[29-05-2025 14:31:59:33] Using nested for-each loop: 
+[29-05-2025 14:31:59:33] 1 2 3  
+[29-05-2025 14:31:59:33] 4 5 6  
+[29-05-2025 14:32:57:56] Running: C:\Workspace\PythonProject\Basics_of_Python\DataType.py 
+[29-05-2025 14:32:57:58] Int Value (a): 127 
+[29-05-2025 14:32:57:58] Int Value (b): 32000 
+[29-05-2025 14:32:57:58] Int Value (c): 100000 
+[29-05-2025 14:32:57:58] Long-like Int (d): 123456789 
+[29-05-2025 14:32:57:58] Float Value (e): 3.14 
+[29-05-2025 14:32:57:58] Double-like Float (f): 3.14159 
+[29-05-2025 14:32:57:58] Char-like String (g): A 
+[29-05-2025 14:32:57:58] Boolean Value (h): True 
+[29-05-2025 14:32:57:58] List (i): [1, 2, 3] 
+[29-05-2025 14:32:57:58] Tuple (j): (4, 5, 6) 
+[29-05-2025 14:32:57:58] Range (k): [0, 1, 2] 
+[29-05-2025 14:32:57:58] Set (l): {1, 2, 3} 
+[29-05-2025 14:32:57:58] Dictionary (m): {'name': 'Alice', 'age': 25} 
+[29-05-2025 14:32:57:76] Running: C:\Workspace\PythonProject\Basics_of_Python\TypeCasting.py 
+[29-05-2025 14:32:57:77] === Implicit Type Casting (Widening) === 
+[29-05-2025 14:32:57:77] Integer: 10 
+[29-05-2025 14:32:57:77] Converted to Float (Double-like): 10.0 
+[29-05-2025 14:32:57:77] === Explicit Type Casting (Narrowing) === 
+[29-05-2025 14:32:57:77] Float (Double-like): 10.75 
+[29-05-2025 14:32:57:77] Converted to Integer: 10 
+[29-05-2025 14:32:57:77] === String to Integer Conversion === 
+[29-05-2025 14:32:57:77] Converted integer (s1): 123 
+[29-05-2025 14:32:57:77] s2 is not a valid integer. 
+[29-05-2025 14:32:57:77] Converted from decimal string (s3): 12 
+[29-05-2025 14:32:57:77] Converted from currency string (s4): 100 
+[29-05-2025 14:32:57:96] Running: C:\Workspace\PythonProject\Basics_of_Python\Variable.py 
+[29-05-2025 14:32:57:97] Local Variable: 30 
+[29-05-2025 14:32:57:97] Instance Variable: 10 
+[29-05-2025 14:32:57:97] Static Variable: 20 

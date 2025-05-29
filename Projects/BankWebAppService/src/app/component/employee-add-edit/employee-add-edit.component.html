@@ -1,0 +1,38 @@
+<h2>{{ employeeId ? 'Edit Employee' : 'Add Employee' }}</h2>
+
+<form [formGroup]="employeeForm" (ngSubmit)="submitForm()">
+  <div>
+    <label for="name">Name:</label>
+    <input id="name" type="text" formControlName="name" />
+    <span *ngIf="employeeForm.get('name')?.invalid && employeeForm.get('name')?.touched">
+      Name is required.
+    </span>
+  </div>
+
+  <div>
+    <label for="age">Age:</label>
+    <input id="age" type="number" formControlName="age" />
+    <span *ngIf="employeeForm.get('age')?.invalid && employeeForm.get('age')?.touched">
+      Age must be at least 18.
+    </span>
+  </div>
+
+  <div>
+    <label for="gender">Gender:</label>
+    <select id="gender" formControlName="gender">
+      <option value="" disabled>Select Gender</option>
+      <option value="Male">Male</option>
+      <option value="Female">Female</option>
+      <option value="Other">Other</option>
+    </select>
+    <span *ngIf="employeeForm.get('gender')?.invalid && employeeForm.get('gender')?.touched">
+      Gender is required.
+    </span>
+  </div>
+
+  <button type="submit" [disabled]="employeeForm.invalid">
+    {{ employeeId ? 'Update Employee' : 'Add Employee' }}
+  </button>
+</form>
+
+<button routerLink="/empList">Back to Employee List</button>

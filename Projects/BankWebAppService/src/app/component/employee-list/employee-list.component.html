@@ -1,0 +1,25 @@
+<button routerLink="/employeeAddEdit">Add Employee</button>
+
+<table>
+  <thead>
+    <tr>
+      <th>Id</th>
+      <th>Name</th>
+      <th>Email</th>
+      <th>Department</th>
+      <th>Actions</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let e of employee">
+      <td>{{e.id}}</td>
+      <td>{{e.name}}</td>
+      <td>{{e.email}}</td>
+      <td>{{e.department}}</td>
+      <td>
+        <button [routerLink]="['/employeeAddEdit', e.id]">Edit</button>
+        <button (click)="deleteEmployee(e.id)">Delete</button>
+      </td>
+    </tr>
+  </tbody>
+</table>
